@@ -1,7 +1,7 @@
 num_int = 0
 num = 0
 Repeater = 'Y'
-MainList = [0]
+MainList = []
 resp = True
 
 while Repeater == 'Y' :
@@ -32,16 +32,13 @@ while Repeater == 'Y' :
             RespondListRegulator = RespondListRegulator + 1
         continue
         
-
-        
         
     if RespondList == 'Y' :
         RespondList = True
-    elif RespondList == 'N' :
-        RespondList = False
         
     if RespondList == True :
         MaintList = MainList.append(num_int)
+        
         
     print(MainList)
     print('Thank You!')
@@ -57,5 +54,6 @@ while Repeater == 'Y' :
             RepeaterRegulator = RepeaterRegulator + 1
             continue
     continue
+    
     
 print('Thank you! Come again!')
