@@ -34,14 +34,13 @@ while Repeater == 'Y' :
         
         
     if RespondList == 'Y' :
-        RespondList = True
-        
-    if RespondList == True :
         MaintList = MainList.append(num_int)
         
         
     print(MainList)
     print('Thank You!')
+    
+    
     RepeaterRegulator = 1
     while RepeaterRegulator > 0 :
         Repeater = input('Do you still want to continue? (Y or N) :')
